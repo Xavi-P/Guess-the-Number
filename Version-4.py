@@ -1,7 +1,7 @@
 import random as rd
 
 magic_number= rd.randint(1,10)
-print(magic_number)
+# print(magic_number)
 
 guess=int(input("what is your guess?:"))
 counter=3
@@ -16,3 +16,4 @@ while guess != magic_number and counter > 0 :
   
 if guess==magic_number:
     print("you win!")
+    
